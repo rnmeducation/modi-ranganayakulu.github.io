@@ -1,0 +1,156 @@
+.main{
+	margin-top: 120px;
+	font-family: 'Cinzel', serif;
+	margin-bottom: 60px;
+}
+
+div.name {
+	border-right: thin solid black;
+}
+
+div.name h2{
+	font-size: 60px;
+	text-align: left;
+	margin-left: 80px;
+	font-weight: bold;
+	text-shadow: 4px 4px 4px #aaa;
+}
+div.name p {
+	font-size: 20px;
+	text-align: left;
+	margin-left: 80px;
+}
+
+div.name p span{
+	background-color: gray;
+	color: white;
+	font-size: bold;
+}
+
+ul.social {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 4px;
+	float: left;
+	margin-top: 48px;
+}
+ul.social li {
+	display: inline;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+ul.social li a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.social span:hover {
+	transition: 0.7s;
+    transform: rotate(360deg);
+    text-align: center;
+}
+
+.social .stackoverflow span:hover {
+	color: orange;
+}
+
+.social .twitter span:hover {
+	color: blue;
+}
+
+.social .linkedin span:hover {
+	color: #335795;
+}
+
+.social .facebook span:hover {
+	color: #3D62B3;
+}
+
+.social .github span:hover {
+	color: black;
+}
+
+.social .skype span:hover {
+	color: #12A5F4;
+}
+
+p.social{
+	font-family: 'Raleway', sans-serif;
+	/*font-size: 20px;*/
+	text-align: center;
+}
+p.social a{
+	text-decoration: none;
+	color: black;
+}
+
+p.social a:hover{
+	color:gray;
+}
+
+
+
+/* About Me CSS*/
+
+div.aboutme{
+	margin-top: 90px;
+	margin-left: 100px;
+	font-family: 'Raleway', sans-serif;
+}
+
+div.aboutme h3{
+	font-weight: bold;
+	color: white;
+	/*text-shadow: 2px 2px 2px #aaa;*/
+}
+
+div.aboutme h3 span{
+	background-color: gray;
+}
+
+div.aboutme p{
+	margin-left: 16px;
+	padding:4px;
+	font-size: 20px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* Projects CSS*/
+
+div.projects{
+	margin-top: 90px;
+	margin-left: 100px;
+	font-family: 'Raleway', sans-serif;
+}
+
+div.projects h3{
+	font-weight: bold;
+	color: white;
+	/*text-shadow: 2px 2px 2px #aaa;*/
+}
+
+div.projects h3 span{
+	background-color: gray;
+}
+
+div.projects p{
+	margin-left: 16px;
+	padding:4px;
+	font-size: 20px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.work{
+	margin-top: 28px;
+	font-size: 22px;
+	text-align: center;
+}
+
+.work span{
+	font-size: 12px;
+}
